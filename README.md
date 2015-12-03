@@ -2,6 +2,7 @@
 - Fundamentals
  - bindings
  - events
+ - initialization
 - Scope
 - Controllers
 - Router
