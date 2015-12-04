@@ -5,7 +5,9 @@
 <body>
 <table ng-init="array=[0, 1, 2, 3, 4, 5, 6, 7]">
   <tr><th>row number</th></tr>
-  <tr ng-repeat="i in array"><td ng-click="array.push(array.length+1)">{{i}}</td></tr>
+  <tr ng-repeat="i in array">
+	<td ng-click="array.push(array.length+1)">{{i}}</td>
+  </tr>
 </table>
 </body>
 </html>
